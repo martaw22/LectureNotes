@@ -2,8 +2,8 @@
 
 import entropy
 
-def test_one_shot():
-  value = entropy.entropy([1.0])
+def test_one_shot(x):
+  value = entropy.entropy([x])
   assert(value == 0)
 
 def test_distribution():
